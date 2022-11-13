@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Pet</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="./01-Pagina-Inicial.html">Início</a></li>
+                <li><a href="./02-Sobre.html">Sobre</a></li>
+                <li><a href="./03-Horarios.html">Horários</a></li>
+                <li><a href="./04-Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./imgs/contato-header-img.jpg" alt="Imagem de vários animais juntos" width="100%"
+                    height="330px">
+            </div>
+
+            <div class="content">
+                <h1>Olá, nós somos a <u>Clínica Pet</u>!</h1>
+                <h2>Contato</h2>
+                <h3><i class="fa fa-phone" aria-hidden="true"></i> (81) 99999-9999</h3>
+                <br>
+                <h3><i class="fa-brands fa-whatsapp"></i> (81) 99999-9999</h3>
+                <br>
+                <h3><i class="fa-solid fa-envelope"></i> contato@clinicapet.com.br</h3>
+                <br>
+                <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Avenida Conde da Boa Vista, XXX.</h3>
+                <br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.417195407056!2d-34.88997368522024!3d-8.058856694197432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18c10c9b8a4d%3A0xb6c1a128c217f351!2sAv.%20Conde%20da%20Boa%20Vista%2C%20Recife%20-%20PE%2C%2050030-230!5e0!3m2!1spt-BR!2sbr!4v1668363314435!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+                <h3>Formulário de Contato</h3>
+                <br>
+                <h4>Se preferir, contate-nos através deste formulário de contato. Entraremos em contato com você em até
+                    no máximo 2 dia úteis.</h2>
+                <br>
+                <form action="">
+                    <div>
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" name="nome" placeholder="Seu nome aqui" required> <br><br>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label> <br>
+                        <input type="email" name="email" placeholder="Seu e-mail aqui" required> <br><br>
+                    </div>
+                    <div>
+                        <label for="tel">Telefone:</label> <br>
+                        <input type="tel" name="tel" placeholder="Seu telefone para contato"> <br><br>
+                    </div>
+                    <div>
+                        <label for="select">O que deseja:</label> <br>
+                        <select name="select" id="select">
+                            <option value="">Selecione uma opção</option>
+                            <option value="">Agendamento</option>
+                            <option value="">Informações</option>
+                            <option value="">Parceria</option>
+                            <option value="">Doações</option>
+                        </select> <br><br>
+                    </div>
+                    <div>
+                        <p style="text-indent: 0;">Para qual serviço:</p>
+                        <input type="radio" id="consulta" name="servico" value="consulta">
+                        <label for="consulta">Consulta</label><br>
+                        <input type="radio" id="vacina" name="servico" value="vacina">
+                        <label for="vacina">Vacina</label><br>
+                        <input type="radio" id="internacao" name="servico" value="internacao">
+                        <label for="internacao">Internação</label><br>
+                        <input type="radio" id="castracao" name="servico" value="castracao">
+                        <label for="castracao">Castração</label><br>
+                        <input type="radio" id="cirurgia" name="servico" value="cirurgia">
+                        <label for="cirurgia">Cirurgia</label><br>
+                    </div>   
+                    <br><button style="border: 1px solid #38361c;"><b>Enviar</b></button> <input type="reset" value="Apagar tudo" style="padding: 10px;">
+                </form>
+
+
+
+
+
+
+                    <hr>
+
+            </div>
+
+            <div class="footer">
+                <hr>
+                <h4>&copy Clínica Pet</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
