@@ -11,17 +11,17 @@ public class Main {
 		
 		Curso curso1 = new Curso();
 		curso1.setTitulo("POO e fundamentos Java");
-		curso1.setDescricao("Aprenda POO em Java com toda a teoria fundamental e muita prática.");
-		curso1.setCargaHorario(20);
+		curso1.setDesricao("Aprenda POO em Java com toda a teoria fundamental e muita prática.");
+		curso1.setCargaHoraria(20);
 		
 		Curso curso2 = new Curso();
 		curso2.setTitulo("APIs REST com Java e Spring Boot");
-		curso2.setDescricao("Desenvolva suas primeiras APIs em Java utilizando o framework Spring Boot.");
-		curso2.setCargaHorario(20);
+		curso2.setDesricao("Desenvolva suas primeiras APIs em Java utilizando o framework Spring Boot.");
+		curso2.setCargaHoraria(20);
 		
 		Mentoria mentoria = new Mentoria();
 		mentoria.setTitulo("Mentoria de Java");
-		mentoria.setDescricao("Mentoria de Java");
+		mentoria.setDesricao("Mentoria de Java");
 		mentoria.setData(LocalDate.now());
 		
 		System.out.println(curso1);
